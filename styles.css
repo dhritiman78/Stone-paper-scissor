@@ -1,9 +1,22 @@
+*{
+    margin: 0;
+}
+.nav{
+    background-color: red;
+    padding: 8px 8px;
+}
+.gameName{
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    margin: 2px 2px;
+}
 .gameBody{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 89%;
-    margin: 80px auto;
+    margin: 55px auto;
     border: 2px solid black;
 }
 .userHead, .compHead{
