@@ -1,0 +1,12 @@
+@media screen and (max-width: 950px) {
+    .user{
+        width: 98%;
+        padding: 3px 3px;
+        border-right: 2px solid black;
+    }
+    .comp{
+        width: 98%;
+        padding: 3px 3px;
+        border-left: 2px solid black;
+    }
+}
