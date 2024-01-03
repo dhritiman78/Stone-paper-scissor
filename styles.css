@@ -1,0 +1,62 @@
+.gameBody{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 89%;
+    margin: 80px auto;
+    border: 2px solid black;
+}
+.userHead, .compHead{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border: 2px solid black;
+}
+.dispName{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3px 3px;
+    padding: 3px 3px;
+}
+.dispScore{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3px 3px;
+    padding: 3px 19px;
+    border: 2px solid black;
+}
+.user{
+    width: 49%;
+    padding: 3px 3px;
+    border-right: 2px solid black;
+}
+.comp{
+    width: 49%;
+    padding: 3px 3px;
+    border-left: 2px solid black;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+}
+.formbox{
+    padding: 2px 2px;
+    margin: 3px 3px;
+}
+.txt1{
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border: 1px solid black;
+}
+.txt2{
+    padding: 5px 5px;
+    margin: 5px 5px;
+    border: 1px solid black;
+}
+.formbox select{
+    padding: 5px 5px;
+}
+.formbox input[type = "button"]{
+    padding: 5px 5px;
+}
